@@ -5,23 +5,18 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace SportsStore.WebUI
-{
-    public class RouteConfig
-    {
+namespace SportsStore.WebUI {
 
-        public static void RegisterRoutes(RouteCollection routes)
-        {
+    public class RouteConfig {
+
+        public static void RegisterRoutes(RouteCollection routes) {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             routes.MapRoute(null,
                 "",
-                new
-                {
-                    controller = "Product",
-                    action = "List",
-                    category = (string)null,
-                    page = 1
+                new {
+                    controller = "Product", action = "List",
+                    category = (string)null, page = 1
                 }
             );
 

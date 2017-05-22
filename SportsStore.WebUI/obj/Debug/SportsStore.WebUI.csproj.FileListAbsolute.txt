@@ -1,51 +1,37 @@
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Moq.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Moq.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
-D:\навчання\IVсеместр\Курсова\Program\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Moq.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Moq.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojResolveAssemblyReference.cache
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+D:\навчання\asp\pro-asp.net-mvc-5\Chapter 11\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
