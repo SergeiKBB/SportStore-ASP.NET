@@ -16,8 +16,6 @@
         @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
     </div>
 
-    <h3>Address</h3>
-
     foreach (var property in ViewData.ModelMetadata.Properties) {
         if (property.PropertyName != "Name" && property.PropertyName != "GiftWrap") {
             <div class="form-group">

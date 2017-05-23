@@ -60,13 +60,11 @@ namespace SportsStore.Domain.Concrete {
                     .AppendLine("---")
                     .AppendLine("Ship to:")
                     .AppendLine(shippingInfo.Name)
-                    .AppendLine(shippingInfo.Line1)
-                    .AppendLine(shippingInfo.Line2 ?? "")
-                    .AppendLine(shippingInfo.Line3 ?? "")
-                    .AppendLine(shippingInfo.City)
-                    .AppendLine(shippingInfo.State ?? "")
+                    .AppendLine(shippingInfo.Password)
                     .AppendLine(shippingInfo.Country)
-                    .AppendLine(shippingInfo.Zip)
+                    .AppendLine(shippingInfo.City)
+                    .AppendLine(shippingInfo.Address)
+                    .AppendLine(shippingInfo.State ?? "")
                     .AppendLine("---")
                     .AppendFormat("Gift wrap: {0}",
                         shippingInfo.GiftWrap ? "Yes" : "No");

@@ -1,0 +1,53 @@
+﻿@model SportsStore.Domain.Entities.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>register</title>
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-4">
+                @using (Html.BeginForm("Register","User"))
+            {
+                    @Html.ValidationSummary()
+                    <h3>Ship to</h3>
+                    <div class="form-group">
+                        <label>Name</label>
+                        @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+                    </div>
+
+                    foreach (var property in ViewData.ModelMetadata.Properties)
+                    {
+                        if (property.PropertyName != "Name" && property.PropertyName != "UserID")
+                        {
+                            <div class="form-group">
+                                <label>@(property.DisplayName ?? property.PropertyName)</label>
+                                @Html.TextBox(property.PropertyName, null, new { @class = "form-control" })
+                            </div>
+                        }
+                    }
+
+                    <div class="text-center">
+                        <input class="btn btn-primary" type="submit" value="Complete order" />
+                        @Html.ActionLink("reset", "rederict", "User")
+                    </div>
+                }
+            </div>
+            <div class="col-lg-4"></div>
+        </div>
+    </div>
+
+</body>
+</html>

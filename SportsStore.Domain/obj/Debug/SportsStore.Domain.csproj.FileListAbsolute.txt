@@ -21,3 +21,26 @@ D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.Dom
 D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
 D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojResolveAssemblyReference.cache
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\EntityFramework.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\EntityFramework.xml
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+D:\навчання\IVсеместр\Курсова\Program\SportStore-ASP.NET\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
