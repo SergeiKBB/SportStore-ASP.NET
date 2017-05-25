@@ -22,7 +22,7 @@ namespace SportsStore.Domain.Entities
     
         public int OrderID { get; set; }
         public int UserID { get; set; }
-        public int WorkerID { get; set; }
+        public Nullable<int> WorkerID { get; set; }
     
         public virtual User User { get; set; }
         public virtual Worker Worker { get; set; }

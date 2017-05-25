@@ -11,7 +11,7 @@ namespace SportsStore.WebUI.Controllers
 {
     public class UserController : Controller
     {
-        private SportsStoreEntities db = new SportsStoreEntities();
+        private SSEntities db = new SSEntities();
         // GET: User
         public ActionResult Register()
         {

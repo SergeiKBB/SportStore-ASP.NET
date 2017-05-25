@@ -5,7 +5,7 @@ using SportsStore.Domain.Entities;
 namespace SportsStore.WebUI.Infrastructure.Concrete {
 
     public class FormsAuthProvider : IAuthProvider {
-        private SportsStoreEntities  db = new SportsStoreEntities();
+        private SSEntities  db = new SSEntities();
 
         public bool Authenticate(string username, string password) {
             bool result = false;

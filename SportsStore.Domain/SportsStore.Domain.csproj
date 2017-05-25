@@ -85,43 +85,43 @@
     <Compile Include="Concrete\EmailOrderProcessor.cs" />
     <Compile Include="Entities\Cart.cs" />
     <Compile Include="Entities\Order.cs">
-      <DependentUpon>SportModel.tt</DependentUpon>
+      <DependentUpon>SSModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\Product.cs">
-      <DependentUpon>SportModel.tt</DependentUpon>
+      <DependentUpon>SSModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\ShippingDetails.cs" />
-    <Compile Include="Entities\SportModel.Context.cs">
+    <Compile Include="Entities\SSModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SportModel.Context.tt</DependentUpon>
+      <DependentUpon>SSModel.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\SportModel.cs">
+    <Compile Include="Entities\SSModel.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SportModel.tt</DependentUpon>
+      <DependentUpon>SSModel.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entities\SportModel.Designer.cs">
+    <Compile Include="Entities\SSModel.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SportModel.edmx</DependentUpon>
+      <DependentUpon>SSModel.edmx</DependentUpon>
     </Compile>
     <Compile Include="Entities\User.cs">
-      <DependentUpon>SportModel.tt</DependentUpon>
+      <DependentUpon>SSModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Entities\Worker.cs">
-      <DependentUpon>SportModel.tt</DependentUpon>
+      <DependentUpon>SSModel.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <EntityDeploy Include="Entities\SportModel.edmx">
+    <EntityDeploy Include="Entities\SSModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SportModel.Designer.cs</LastGenOutput>
+      <LastGenOutput>SSModel.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="Entities\SportModel.edmx.diagram">
-      <DependentUpon>SportModel.edmx</DependentUpon>
+    <None Include="Entities\SSModel.edmx.diagram">
+      <DependentUpon>SSModel.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
@@ -129,15 +129,15 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Entities\SportModel.Context.tt">
+    <Content Include="Entities\SSModel.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SportModel.edmx</DependentUpon>
-      <LastGenOutput>SportModel.Context.cs</LastGenOutput>
+      <DependentUpon>SSModel.edmx</DependentUpon>
+      <LastGenOutput>SSModel.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Entities\SportModel.tt">
+    <Content Include="Entities\SSModel.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SportModel.edmx</DependentUpon>
-      <LastGenOutput>SportModel.cs</LastGenOutput>
+      <DependentUpon>SSModel.edmx</DependentUpon>
+      <LastGenOutput>SSModel.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

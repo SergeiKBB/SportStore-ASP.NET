@@ -9,6 +9,7 @@ namespace SportsStore.WebUI.Controllers {
     [Authorize]
     public class AdminController : Controller {
         private IProductRepository repository;
+        private SSEntities db = new SSEntities();
 
         public AdminController(IProductRepository repo) {
             repository = repo;
@@ -47,6 +48,17 @@ namespace SportsStore.WebUI.Controllers {
 
         [HttpPost]
         public ActionResult Delete(int productId) {
+
+            Product prod = db.Products.Find(productId);
+            var eee = prod.Orders;
+            Order order;
+            foreach (var el in eee)
+            {
+                order = prod.Orders.First(x => x.OrderID == el.OrderID);
+                order.Products.Remove(prod);
+            }
+            db.SaveChanges();
+
             Product deletedProduct = repository.DeleteProduct(productId);
             if (deletedProduct != null) {
                 TempData["message"] = string.Format("{0} was deleted",

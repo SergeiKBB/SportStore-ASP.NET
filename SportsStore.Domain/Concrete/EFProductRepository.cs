@@ -31,6 +31,7 @@ namespace SportsStore.Domain.Concrete {
 
         public Product DeleteProduct(int productID) {
             Product dbEntry = context.Products.Find(productID);
+            
             if (dbEntry != null) {
                 context.Products.Remove(dbEntry);
                 context.SaveChanges();

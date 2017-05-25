@@ -36,3 +36,41 @@ D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.Uni
 D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.csprojResolveAssemblyReference.cache
 D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.dll
 D:\навчання\asp\pro-asp.net-mvc-5\Chapter 13\SportsStore\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.pdb
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\SportsStore.UnitTests.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\SportsStore.UnitTests.pdb
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Moq.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.Web.Common.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.Web.Mvc.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\SportsStore.Domain.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\SportsStore.WebUI.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.Helpers.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.Mvc.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.Razor.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\WebActivator.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\EntityFramework.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\SportsStore.Domain.pdb
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\SportsStore.WebUI.pdb
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Moq.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.pdb
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.Web.Common.pdb
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.Web.Common.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.Web.Mvc.pdb
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\Ninject.Web.Mvc.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.Helpers.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.Mvc.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.Razor.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\EntityFramework.xml
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.dll
+C:\Users\Сергей\Desktop\SportStore-ASP.NET-master\SportsStore.UnitTests\obj\Debug\SportsStore.UnitTests.pdb

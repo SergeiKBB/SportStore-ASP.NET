@@ -9,7 +9,7 @@ namespace SportsStore.WebUI.Controllers {
     public class CartController : Controller {
         private IProductRepository repository;
         private IOrderProcessor orderProcessor;
-        private SportsStoreEntities db = new SportsStoreEntities();
+        private SSEntities db = new SSEntities();
 
         public CartController(IProductRepository repo, IOrderProcessor proc) {
             repository = repo;
@@ -51,28 +51,19 @@ namespace SportsStore.WebUI.Controllers {
             return PartialView(cart);
         }
 
-        public ViewResult Checkout(int id) {
+        public ViewResult Checkout(int id, Cart cart) {
 
-            var date = db.Users;
-            User user = null;
+            var list = cart.Lines.ToList();
+            Order order = new Order { UserID = id };
 
-            foreach (var el in date)
+            foreach (var el in list)
             {
-                if(el.UserID == id)
-                {
-                    user = new User
-                    {
-                        Address = el.Address,
-                        City = el.City,
-                        Country = el.Country,
-                        Name = el.Name,
-                        Password = el.Password,
-                        State = el.State,
-                        UserID = el.UserID
-                    };
-                }
-            }
-            return View(user);
+                //Product prod = db.Products.Find(el.Product.ProductID);
+                //prod.Orders.Add(order);
+                db.Products.Find(el.Product.ProductID).Orders.Add(order);
+            } 
+            db.SaveChanges();
+            return View();
         }
 
         [HttpPost]

@@ -13,10 +13,10 @@ namespace SportsStore.Domain.Entities
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class SportsStoreEntities : DbContext
+    public partial class SSEntities : DbContext
     {
-        public SportsStoreEntities()
-            : base("name=SportsStoreEntities")
+        public SSEntities()
+            : base("name=SSEntities")
         {
         }
     
