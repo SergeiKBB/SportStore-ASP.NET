@@ -20,15 +20,20 @@
                     case "ProductID":
                     case "ImageData":
                     case "ImageMimeType":
+                    case "Orders":
                         // do nothing
                         break;
                     default:
                         <div class="form-group">
                             <label>@(property.DisplayName ?? property.PropertyName)</label>
-                            @if (property.PropertyName == "Description") {
+                            @if (property.PropertyName == "Description")
+                            {
                                 @Html.TextArea(property.PropertyName, null,
-                                new { @class = "form-control", rows = 5 })
-                            } else {
+                                     new { @class = "form-control", rows = 5 })
+                            }
+                            else if (property.PropertyName == "Orders")
+                            { }
+                            else {
                                 @Html.TextBox(property.PropertyName, null,
                                 new { @class = "form-control" })
                             }

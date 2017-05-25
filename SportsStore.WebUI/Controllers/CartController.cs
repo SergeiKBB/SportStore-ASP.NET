@@ -9,6 +9,7 @@ namespace SportsStore.WebUI.Controllers {
     public class CartController : Controller {
         private IProductRepository repository;
         private IOrderProcessor orderProcessor;
+        private SportsStoreEntities db = new SportsStoreEntities();
 
         public CartController(IProductRepository repo, IOrderProcessor proc) {
             repository = repo;
@@ -17,6 +18,7 @@ namespace SportsStore.WebUI.Controllers {
 
 
         public ViewResult Index(Cart cart, string returnUrl) {
+                ViewBag.ID = (int)Session["user"];
             return View(new CartIndexViewModel {
                 ReturnUrl = returnUrl,
                 Cart = cart
@@ -49,8 +51,28 @@ namespace SportsStore.WebUI.Controllers {
             return PartialView(cart);
         }
 
-        public ViewResult Checkout() {
-            return View(new ShippingDetails());
+        public ViewResult Checkout(int id) {
+
+            var date = db.Users;
+            User user = null;
+
+            foreach (var el in date)
+            {
+                if(el.UserID == id)
+                {
+                    user = new User
+                    {
+                        Address = el.Address,
+                        City = el.City,
+                        Country = el.Country,
+                        Name = el.Name,
+                        Password = el.Password,
+                        State = el.State,
+                        UserID = el.UserID
+                    };
+                }
+            }
+            return View(user);
         }
 
         [HttpPost]
@@ -64,7 +86,7 @@ namespace SportsStore.WebUI.Controllers {
                 cart.Clear();
                 return View("Completed");
             } else {
-                return View(shippingDetails);
+                return View(shippingDetails); 
             }
         }
 

@@ -13,7 +13,7 @@ namespace SportsStore.WebUI.Controllers {
         }
 
         public PartialViewResult Menu(string category = null) {
-
+            
             ViewBag.SelectedCategory = category;
 
             IEnumerable<string> categories = repository.Products

@@ -1,4 +1,4 @@
-﻿@model SportsStore.Domain.Entities.ShippingDetails
+﻿@model SportsStore.Domain.Entities.User
 
 @{
     ViewBag.Title = "SportStore: Checkout";
@@ -9,7 +9,7 @@
 
 
 @using (Html.BeginForm()) {
-    @Html.ValidationSummary()    
+        @Html.ValidationSummary()    
     <h3>Ship to</h3>
     <div class="form-group">
         <label>Name</label>
@@ -24,14 +24,6 @@
             </div>
         }
     }
-
-    <h3>Options</h3>
-    <div class="checkbox">
-        <label>
-            @Html.EditorFor(x => x.GiftWrap)
-            Gift wrap these items
-        </label>
-    </div>
 
     <div class="text-center">
         <input class="btn btn-primary" type="submit" value="Complete order" />

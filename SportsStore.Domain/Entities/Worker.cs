@@ -11,27 +11,18 @@ namespace SportsStore.Domain.Entities
 {
     using System;
     using System.Collections.Generic;
-    using System.ComponentModel.DataAnnotations;
-
-    public partial class Product
+    
+    public partial class Worker
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
-        public Product()
+        public Worker()
         {
             this.Orders = new HashSet<Order>();
         }
     
-        public int ProductID { get; set; }
-        [Required(ErrorMessage = "Please enter a Name")]
+        public int WorkerID { get; set; }
         public string Name { get; set; }
-        [Required(ErrorMessage = "Please enter a Description")]
-        public string Description { get; set; }
-        [Required(ErrorMessage = "Please enter a Price")]
-        public decimal Price { get; set; }
-        [Required(ErrorMessage = "Please enter a Category")]
-        public string Category { get; set; }
-        public byte[] ImageData { get; set; }
-        public string ImageMimeType { get; set; }
+        public string Passsword { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Order> Orders { get; set; }

@@ -18,6 +18,10 @@ namespace SportsStore.WebUI.Controllers {
         }
 
         public ViewResult List(string category, int page = 1) {
+            if (Session["user"] == null)
+            {
+                Session["user"] = 0;
+            }
             try
             {
                 ProductsListViewModel viewModel = new ProductsListViewModel

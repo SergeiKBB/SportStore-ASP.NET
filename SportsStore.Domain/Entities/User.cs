@@ -6,22 +6,35 @@
 //     Manual changes to this file will be overwritten if the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
-using System.Web.Mvc;
 
 namespace SportsStore.Domain.Entities
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class User
     {
-
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
+        public User()
+        {
+            this.Orders = new HashSet<Order>();
+        }
         public int UserID { get; set; }
+        [Required(ErrorMessage = "Please enter a Name")]
         public string Name { get; set; }
+        [Required(ErrorMessage = "Please enter a Password")]
         public string Password { get; set; }
+        [Required(ErrorMessage = "Please enter a Country")]
         public string Country { get; set; }
+        [Required(ErrorMessage = "Please enter a City")]
         public string City { get; set; }
+        [Required(ErrorMessage = "Please enter a Address")]
         public string Address { get; set; }
+        [Required(ErrorMessage = "Please enter a State")]
         public string State { get; set; }
+        
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Order> Orders { get; set; }
     }
 }
