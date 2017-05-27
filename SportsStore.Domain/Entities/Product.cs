@@ -11,7 +11,8 @@ namespace SportsStore.Domain.Entities
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class Product
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,9 +22,13 @@ namespace SportsStore.Domain.Entities
         }
     
         public int ProductID { get; set; }
+        [Required(ErrorMessage = "Please enter a Name")]
         public string Name { get; set; }
+        [Required(ErrorMessage = "Please enter a Description")]
         public string Description { get; set; }
+        [Required(ErrorMessage = "Please enter a Price")]
         public decimal Price { get; set; }
+        [Required(ErrorMessage = "Please enter a Category")]
         public string Category { get; set; }
         public byte[] ImageData { get; set; }
         public string ImageMimeType { get; set; }

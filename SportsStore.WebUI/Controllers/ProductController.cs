@@ -18,6 +18,13 @@ namespace SportsStore.WebUI.Controllers {
         }
 
         public ViewResult List(string category, int page = 1) {
+            Session["return"] = null;
+            if (Session["message"] != null) {
+
+                ViewBag.message = Session["message"];
+                Session["message"] = null;
+            }
+
             if (Session["user"] == null)
             {
                 Session["user"] = 0;

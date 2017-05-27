@@ -7,7 +7,7 @@
 <style>
     #cartTable td { vertical-align: middle; }
 </style>
-
+<h3 style="color:red">@ViewBag.Return</h3>
 <h2>Your cart</h2>
 <table id="cartTable" class="table">
     <thead>
@@ -49,10 +49,11 @@
 </table>
 
 <div class="text-center">
-    <a class="btn btn-primary" href="@Model.ReturnUrl">Continue shopping</a>
+    @*<a class="btn btn-primary" href="@Model.ReturnUrl">Continue shopping</a>*@
+    @Html.ActionLink("Continue shopping", "List", "Product", null, new { @class = "btn btn-primary" })
     @if (ViewBag.ID != 0)
     {
-        @Html.ActionLink("Checkout now", "Checkout", new { ViewBag.ID }, new { @class = "btn btn-primary" })
+        @Html.ActionLink("Send an order", "Checkout", new { ViewBag.ID }, new { @class = "btn btn-primary" })
     }
     else {
     @Html.ActionLink("Register", "Register", "User",null, new { @class = "btn btn-primary" })

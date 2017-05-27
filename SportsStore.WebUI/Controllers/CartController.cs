@@ -18,8 +18,24 @@ namespace SportsStore.WebUI.Controllers {
 
 
         public ViewResult Index(Cart cart, string returnUrl) {
-                ViewBag.ID = (int)Session["user"];
-            return View(new CartIndexViewModel {
+            ViewBag.ID = (int)Session["user"];
+            ViewBag.Return = Session["return"];
+            if (Session["Check"] == null)
+            {
+                return View(new CartIndexViewModel
+                {
+                    ReturnUrl = returnUrl,
+                    Cart = cart
+                });
+            }
+            else if((int)Session["Check"] == 1)
+            {
+                cart.Clear();
+                Session["Check"] = 0;
+            }
+
+            return View(new CartIndexViewModel
+            {
                 ReturnUrl = returnUrl,
                 Cart = cart
             });
@@ -27,9 +43,18 @@ namespace SportsStore.WebUI.Controllers {
 
         public RedirectToRouteResult AddToCart(Cart cart, int productId,
                 string returnUrl) {
+            ViewBag.Return = null;
+            Session["Check"] = 0;
             Product product = repository.Products
                 .FirstOrDefault(p => p.ProductID == productId);
-
+            foreach (var item in cart.Lines)
+            {
+                if(item.Product.ProductID == productId)
+                {
+                    Session["message"] = "The given product has been added to the basket";
+                    return RedirectToAction("List", "Product");
+                }
+            }
             if (product != null) {
                 cart.AddItem(product, 1);
             }
@@ -51,34 +76,33 @@ namespace SportsStore.WebUI.Controllers {
             return PartialView(cart);
         }
 
-        public ViewResult Checkout(int id, Cart cart) {
+        public ActionResult Checkout(int id, Cart cart, string returnUrl)
+        {
 
             var list = cart.Lines.ToList();
             Order order = new Order { UserID = id };
+            int count = list.Count;
 
-            foreach (var el in list)
+            if (count == 0)
             {
-                //Product prod = db.Products.Find(el.Product.ProductID);
-                //prod.Orders.Add(order);
-                db.Products.Find(el.Product.ProductID).Orders.Add(order);
-            } 
-            db.SaveChanges();
-            return View();
-        }
-
-        [HttpPost]
-        public ViewResult Checkout(Cart cart, ShippingDetails shippingDetails) {
-            if (cart.Lines.Count() == 0) {
-                ModelState.AddModelError("", "Sorry, your cart is empty!");
+                Session["return"] = "Please add product to basket";
+                Session["Check"] = 0;
             }
+            else
+            {
+                Session["return"] = "Thank you for your order";
+                Session["Check"] = 1;
+                foreach (var el in list)
+                {
+                    Product prod = db.Products.Find(el.Product.ProductID);
+                    prod.Orders.Add(order);
+                    db.Products.Find(el.Product.ProductID).Orders.Add(order);
+                }
+                db.SaveChanges();
+                cart = new Cart();
 
-            if (ModelState.IsValid) {
-                orderProcessor.ProcessOrder(cart, shippingDetails);
-                cart.Clear();
-                return View("Completed");
-            } else {
-                return View(shippingDetails); 
             }
+            return RedirectToAction("Index", new { returnUrl });
         }
 
     }

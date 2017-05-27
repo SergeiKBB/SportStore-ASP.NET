@@ -11,7 +11,8 @@ namespace SportsStore.Domain.Entities
 {
     using System;
     using System.Collections.Generic;
-    
+    using System.ComponentModel.DataAnnotations;
+
     public partial class User
     {
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
@@ -21,11 +22,17 @@ namespace SportsStore.Domain.Entities
         }
     
         public int UserID { get; set; }
+        [Required(ErrorMessage = "Please enter a name")]
         public string Name { get; set; }
+        [Required(ErrorMessage = "Please enter a Password")]
         public string Password { get; set; }
+        [Required(ErrorMessage = "Please enter a Country")]
         public string Country { get; set; }
+        [Required(ErrorMessage = "Please enter a City")]
         public string City { get; set; }
+        [Required(ErrorMessage = "Please enter a Address")]
         public string Address { get; set; }
+        [Required(ErrorMessage = "Please enter a State")]
         public string State { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]

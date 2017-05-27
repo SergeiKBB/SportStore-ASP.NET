@@ -75,6 +75,14 @@ namespace SportsStore.WebUI.Controllers
                     return RedirectToActionPermanent("List", "Product");
                 }
             }
+            if (ModelState.IsValid)
+            {
+                ViewBag.Mess = "Incorrect username or password";
+            }
+            else
+            {
+                ViewBag.Mess = null;
+            }
             return View();
         }
         public RedirectToRouteResult rederict()

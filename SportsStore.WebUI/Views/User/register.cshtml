@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>register</title>
+    <title>Registration</title>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
@@ -21,12 +21,12 @@
             <div class="col-lg-4">
                 @if (ViewBag.Check)
                 {
-                    @ViewBag.Thank
+                    <h4 style="color:red">@ViewBag.Thank</h4>
                 }
                 @using (Html.BeginForm("Register","User"))
              {
                     @Html.ValidationSummary()
-                    <h3>Ship to</h3>
+                    <h3>Registration</h3>
                     <div class="form-group">
                         <label>Name</label>
                         @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
@@ -44,8 +44,8 @@
                     }
 
                     <div class="text-center">
-                        <input class="btn btn-primary" type="submit" value="Complete order" />
-                        @Html.ActionLink("reset", "rederict", "User", null, new { @class = "btn btn-default" })
+                        <input class="btn btn-primary" type="submit" value="Сheck in" />
+                        @Html.ActionLink("Back", "rederict", "User", null, new { @class = "btn btn-default" })
                     </div>
                 }
             </div>

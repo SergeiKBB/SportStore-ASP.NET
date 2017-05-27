@@ -3,8 +3,10 @@
 @{
     ViewBag.Title = "Products";
 }
-
-
+@if(ViewBag.message != null)
+{
+    <h3 style="color:red; margin-top:0;">@ViewBag.message</h3>
+}
 @foreach (var p in Model.Products) {
     @Html.Partial("ProductSummary", p)
 }

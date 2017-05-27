@@ -1,6 +1,6 @@
 ﻿@model SportsStore.Domain.Entities.Product
 
-<div class="well">
+<div class="well" style="padding: 30px 15px 30px 15px;">
 
     @if (Model.ImageData != null) {
         <div class="pull-left" style="margin-right: 10px">
@@ -10,7 +10,7 @@
         </div>
     }
 
-    <h3>
+    <h3 style="margin: 0 0 10px 0;">
         <strong>@Model.Name</strong>
         <span class="pull-right label label-primary">@Model.Price.ToString("c")</span>
     </h3>

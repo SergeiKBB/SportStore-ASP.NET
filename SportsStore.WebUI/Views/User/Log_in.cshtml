@@ -9,7 +9,7 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>register</title>
+    <title>Log in</title>
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
@@ -22,7 +22,8 @@
                 @using (Html.BeginForm())
                 {
                     @Html.ValidationSummary()
-                    <h3>Ship to</h3>
+                    <h4 style="color:red">@ViewBag.Mess</h4>
+                    <h3>Log in</h3>
                     <div class="form-group">
                         <label>Name</label>
                         @Html.TextBoxFor(x => x.UserName, new { @class = "form-control" })
@@ -33,6 +34,7 @@
                     </div>
                     <div class="text-center">
                         <input class="btn btn-primary" type="submit" value="Complete" />
+                        @Html.ActionLink("Back", "rederict", "User", null, new { @class = "btn btn-default" })
                     </div>
                 }
             </div>
