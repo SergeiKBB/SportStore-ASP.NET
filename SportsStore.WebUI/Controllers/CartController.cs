@@ -8,17 +8,19 @@ namespace SportsStore.WebUI.Controllers {
 
     public class CartController : Controller {
         private IProductRepository repository;
-        private IOrderProcessor orderProcessor;
         private SSEntities db = new SSEntities();
-
-        public CartController(IProductRepository repo, IOrderProcessor proc) {
-            repository = repo;
-            orderProcessor = proc;
+                                                                                                                                                                                                                                                            //private IOrderProcessor orderProcessor;
+        public CartController(IProductRepository repo)
+        {                                                                                                                                                                                                                                                   //, IOrderProcessor proc
+            repository = repo;                                                                                                                                                                                                                              //orderProcessor = proc;
         }
 
 
         public ViewResult Index(Cart cart, string returnUrl) {
-            ViewBag.ID = (int)Session["user"];
+            if (Session["user"] != null)
+            {
+                ViewBag.ID = (int)Session["user"];
+            }
             ViewBag.Return = Session["return"];
             if (Session["Check"] == null)
             {
